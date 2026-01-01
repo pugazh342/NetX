@@ -1,0 +1,26 @@
+PacketSentry/
+├── backend/
+│   ├── app/
+│   │   ├── api/            # API Endpoints (Upload, Analyze, Report)
+│   │   ├── core/           # Configs (DB URLs, API Keys)
+│   │   ├── engine/
+│   │   │   ├── parser.py   # Core logic using PyShark/Scapy
+│   │   │   ├── threat.py   # Threat Intel integration logic
+│   │   │   └── utils.py    # Helpers (GeoIP lookups)
+│   │   ├── models/         # Database schemas
+│   │   └── main.py         # FastAPI entry point
+│   ├── tests/              # Unit tests for parsing logic
+│   ├── requirements.txt
+│   └── .env                # Secrets
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/     # Charts, Tables, Maps
+│   │   ├── pages/          # Dashboard, Upload, Settings
+│   │   └── services/       # API connection logic
+│   └── package.json
+├── data/
+│   ├── uploads/            # Temp storage for raw PCAPs
+│   └── exports/            # Generated PDF/CSV reports
+├── docs/                   # Documentation
+└── docker-compose.yml      # For spinning up DB, Backend, and Frontend together

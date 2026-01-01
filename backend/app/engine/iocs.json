@@ -1,0 +1,14 @@
+{
+  "ips": {
+    "192.168.1.50": "Internal Infected Host (Test)",
+    "45.33.32.156": "Known Scanner (Test)",
+    "185.199.108.153": "Malware C2 Server",
+    "1.1.1.1": "Suspicious DNS Resolver (Test)"
+  },
+  "domains": {
+    "malware.com": "Malware Download Site",
+    "phishing-login.net": "Credential Harvester",
+    "test-botnet.org": "Botnet Command Center",
+    "google.com": "Whitelisted (Just for testing parser)"
+  }
+}
