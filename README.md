@@ -57,7 +57,7 @@
 
 # Clone the repository
 ```bash
-git clone [https://github.com/yourusername/NetX-Sentry.git](https://github.com/yourusername/NetX-Sentry.git)
+git clone https://github.com/pugazh342/NetX.git
 cd NetX
 ```
 
@@ -104,7 +104,7 @@ Open your browser and navigate to [http://localhost:5173](http://localhost:5173)
 
 ## 📝 Documentation
 
-For detailed documentation, visit the [NetX Sentry Documentation](https://github.com/yourusername/NetX-Sentry/wiki).
+For detailed documentation, visit the [NetX Sentry Documentation](https://github.com/pugazh342/NetX-Sentry/wiki).
 
 ---
 
@@ -156,3 +156,4 @@ Since I put "placeholder" images in the Screenshot section, you should:
 4.  Update the `README.md` image links to point to your real screenshots!
 
 **Project Complete!** 🚀
+
